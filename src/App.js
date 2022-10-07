@@ -11,6 +11,9 @@ function App() {
       <div>
         <Navigation />
         <Switch>
+          <Route path='/search'>
+            <SearchPage />
+          </Route>
           <Route path='/:type/:id'>
             <PetDetailsPage />
           </Route>
